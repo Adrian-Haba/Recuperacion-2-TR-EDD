@@ -30,4 +30,8 @@ public class Funciones {
 			return null;
 		}
 	}
+
+	public static boolean consonantescadenas(char letra) {
+		return "bcdfghjklmnñpqrstvwxyz".contains(String.valueOf(letra).toLowerCase());
+	}
 }
